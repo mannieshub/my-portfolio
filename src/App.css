@@ -27,6 +27,22 @@
 .App-link {
   color: #61dafb;
 }
+p{
+  font-size: 30;
+  color: white;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+span{
+  font-size: 30;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.cardComponent{
+  background-color: white;
+  width: 300px;
+}
+
 
 @keyframes App-logo-spin {
   from {

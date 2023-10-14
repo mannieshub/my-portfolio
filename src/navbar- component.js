@@ -1,0 +1,25 @@
+// Navbar.js (หรือ Navbar.jsx)
+import React from 'react';
+
+const NavbarComponent = (props) => {
+  const navStyles = {
+    // รายละเอียดสไตล์ของ Navbar ที่คุณต้องการ
+    backgroundColor: "#4B4B4B",
+    textAlign: "center",
+    boxShadow: "1px 4px 9px rgba(0, 0, 0, 0.25)",
+    top: 0,
+    position: "fixed",
+    width: "100%",
+    height: "60px",
+  };
+
+  return (
+    <nav className="navbar mb-5" style={navStyles}>
+      <div className="container-fluid">
+        <div className="mx-auto" style={{ fontSize: "30px", color: "white", fontWeight: "bold" }}>{props.title}</div>
+      </div>
+    </nav>
+  );
+};
+
+export default NavbarComponent;
