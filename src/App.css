@@ -28,9 +28,10 @@
   color: #61dafb;
 }
 p{
-  font-size: 30;
-  color: white;
+  font-size: 50;
+  color: black;
   font-family: 'M PLUS Rounded 1c', sans-serif;
+  text-align: center;
 }
 
 span{
@@ -42,7 +43,9 @@ span{
   background-color: white;
   width: 300px;
 }
-
+.cardStyles{
+  height: 790px;
+}
 
 @keyframes App-logo-spin {
   from {
