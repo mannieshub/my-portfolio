@@ -4,7 +4,7 @@ import React from 'react';
 const NavbarComponent = (props) => {
   const navStyles = {
     // รายละเอียดสไตล์ของ Navbar ที่คุณต้องการ
-    backgroundColor: "black",
+    backgroundColor: "#1B1B1B",
     textAlign: "center",
     boxShadow: "1px 4px 9px rgba(0, 0, 0, 0.25)",
     top: 0,

@@ -48,12 +48,21 @@ const Describtion = () => {
                 </div>
                 <div>
                     <b style={{color:"white",fontSize:"18px"}} className="p-3">Programming</b><br />
-                    <div className="card mx-auto mt-3" style={{width:"97%",height:"120px",backgroundColor:"#505050",borderRadius:"20px"}}>
-                       
-                    </div>
+                    {/* <div className="card mx-auto mt-3" style={{width:"97%",height:"120px",backgroundColor:"#505050",borderRadius:"20px"}}> */}
+                       <div className="row mt-4 ms-3">
+                        <div className="col-1"><img src="./components/java.png" style={imgStyles} alt="" /></div>
+                        <div className="col-1"><img src="./components/python.png" style={imgStyles} alt="" /></div>
+                        <div className="col-1"><img src="./components/javascript.png" style={imgStyles} alt="" /></div>
+                        <div className="col-1"><img src="./components/html.png" style={imgStyles} alt="" /></div>
+                        <div className="col-1"><img src="./components/css.png" style={imgStyles} alt="" /></div>
+                        <div className="col-1"><img src="./components/sql.png" style={imgStyles} alt="" /></div>
+                        <div className="col-1"><img src="./components/nodejs.png" style={imgStyles} alt="" /></div>
+                        <div className="col-1"><img src="./components/react.png" style={imgStyles} alt="" /></div>
+                       </div>
+                    {/* </div> */}
                 </div>
                 
-                <div className="mt-3">
+                <div className="mt-4">
                 <b style={{color:"white",fontSize:"18px"}} className="p-3">My Project</b><br />
                 <div style={{color:"white"}} >
                     <ul className="ms-4 mt-2">
