@@ -60,12 +60,15 @@ function App() {
                     . In my free time I always listening to music and play
                     computer games . Sometimes I study coding or new technology.{" "}
                     <br />
-                    <b>
-                      My GitHub Profile:{" "}
-                      <a href="https://github.com/mannieshub">
-                        github.com/mannieshub
-                      </a>
-                    </b>
+                    <div className="mt-2">
+                        <b>
+                        My GitHub Profile:{" "}
+                        <a href="https://github.com/mannieshub">
+                          github.com/mannieshub
+                        </a>
+                      </b>
+                    </div>
+                    
                   </div>
                 </div>
               </div>
