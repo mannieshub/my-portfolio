@@ -9,7 +9,7 @@ import NavbarComponent from "./navbar- component";
 import MenuButton from "./menu";
 const cardStyles = {
   height: "520px",
-  backgroundColor: "#CFCFCF",
+  backgroundColor: "#282828",
   borderRadius: "40px",
   width: "400px",
   boxShadow: "1px 4px 9px rgba(0, 0, 0, 0.25)",
@@ -26,7 +26,7 @@ const profileImg = {
   boxShadow: "1px 4px 9px rgba(0, 0, 0, 0.3)",
 };
 const textStyles = {
-  fontColor: "white",
+  color: "white",
   fontSize: "15px",
 };
 
@@ -72,7 +72,7 @@ function App() {
               <div className="col-2"></div>
               <div className="col-4">
                 <div className="card" style={cardStyles}>
-                  <b className="mt-3 mx-auto" style={{ fontSize: "25px" }}>
+                  <b className="mt-3 mx-auto" style={{ fontSize: "25px",color:"white" }}>
                     Skills and Experience
                   </b>
                   <div className="mx-auto">
