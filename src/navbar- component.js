@@ -10,7 +10,7 @@ const NavbarComponent = (props) => {
     top: 0,
     position: "fixed-top",
     width: "100%",
-    height: "60px",
+    height: "70px",
   };
 
   return (
