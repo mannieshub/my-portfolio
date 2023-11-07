@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+
 const contentStyles = {
   height: "120px",
   backgroundColor: "black",
@@ -6,6 +7,7 @@ const contentStyles = {
   width: "300px",
   boxShadow: "1px 4px 9px rgba(0, 0, 0, 0.1)",
 };
+
 const iconSkills = {
   height: "100px",
   width: "100px",
@@ -13,9 +15,17 @@ const iconSkills = {
   backgroundColor: "grey",
 };
 
+
+
 const MenuButton = (props) => {
+  const [event, setEvent] = useState(""); // สร้าง state event
+
+  const handleButtonClick = () => {
+    setEvent(props.text); // ตั้งค่า event เมื่อคลิก
+  };
+
   return (
-    <div className="card mt-3" style={contentStyles}>
+    <div className="card mt-3" style={contentStyles} onClick={handleButtonClick}>
       <div className="row">
         <div className="col-4">
           <div className="card mt-2 ms-2" style={iconSkills}>
@@ -41,4 +51,5 @@ const MenuButton = (props) => {
     </div>
   );
 };
+
 export default MenuButton;

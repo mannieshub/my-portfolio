@@ -7,6 +7,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 //import components
 import NavbarComponent from "./navbar- component";
 import MenuButton from "./menu";
+import Describtion from "./describtion-component";
 const cardStyles = {
   height: "520px",
   backgroundColor: "#282828",
@@ -30,9 +31,8 @@ const textStyles = {
   fontSize: "15px",
 };
 
-
 function App() {
-  const [event,setEvent]=React.useState()
+  const [event,setEvent] = React.useState("")
   return (
     <>
       <body style={{ backgroundColor: "#474747", height: "100vh" }}>
@@ -76,20 +76,31 @@ function App() {
               <div className="col-4">
                 <div className="card" style={cardStyles}>
                   <b className="mt-3 mx-auto" style={{ fontSize: "25px",color:"white" }}>
-                    Skills and Experience
+                    SoftSkills
                   </b>
+                  
                   <div className="mx-auto">
-                    <MenuButton img="./components/coding.png" text="Programming"></MenuButton>
-                    <MenuButton img="./components/dictionary.png" text="English"></MenuButton>
-                    <MenuButton img="./components/experience.png" text="My Project"></MenuButton>
+                    <p className="mt-2" style={{color:"white"}}>I think this would be 3 My favorite skill .</p>
+                    <MenuButton img="./components/leader.png" text="Leadership"></MenuButton>
+                    <MenuButton img="./components/knowledge.png" text="Quick Learning"></MenuButton>
+                    <MenuButton img="./components/idea.png" text="Problem Solving"></MenuButton>
                   </div>
                 </div>
               </div>
               <div className="col-1"></div>
             </div>
+
+            <div className="row mt-5"><div className="container">
+          <Describtion event={event}></Describtion>
+        </div></div>
           </div>
         </div>
       </body>
+      <footer style={{ backgroundColor: "#474747", height: "100vh" }}>
+        
+        
+      </footer>
+
     </>
   );
 }
