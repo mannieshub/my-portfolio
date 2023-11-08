@@ -12,7 +12,7 @@ const cardStyles = {
   height: "520px",
   backgroundColor: "#282828",
   borderRadius: "40px",
-  width: "400px",
+  width: "420px",
   boxShadow: "1px 4px 9px rgba(0, 0, 0, 0.25)",
 };
 const circles = {
@@ -30,6 +30,7 @@ const textStyles = {
   color: "white",
   fontSize: "15px",
 };
+
 
 function App() {
   const [event,setEvent] = React.useState("")
@@ -90,9 +91,11 @@ function App() {
               <div className="col-1"></div>
             </div>
 
-            <div className="row mt-5"><div className="container">
-          <Describtion event={event}></Describtion>
-        </div></div>
+            <div className="row mt-5">
+              <div className="container">
+                <Describtion event={event}></Describtion>
+              </div>
+            </div>
           </div>
         </div>
       </body>

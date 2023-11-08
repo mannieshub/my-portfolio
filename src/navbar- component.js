@@ -16,7 +16,7 @@ const NavbarComponent = (props) => {
   return (
     <nav className="navbar mb-5" style={navStyles}>
       <div className="container-fluid">
-        <div className="mx-auto" style={{ fontSize: "30px", color: "white", fontWeight: "bold" }}>{props.title}</div>
+        <div className="mx-auto" style={{ fontSize: "50px", color: "white", fontWeight: "bold" }}>{props.title}</div>
       </div>
     </nav>
   );
