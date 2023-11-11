@@ -26,7 +26,7 @@ const Describtion = () => {
                 <div className="row">
                     <div className="col-6">
                     <b style={{color:"white",fontSize:"22px"}} className="p-3">English</b><br />
-                    <ul style={{color:"white"}} className="ms-4 mt-2">
+                    <ul style={{color:"white",fontSize:"20px"}} className="ms-4 mt-2">
                         <li>Speaking  <b>at beginner level</b></li>
                         <li>Listening <b>at beginer level</b></li>
                         <li>Writing   <b>at intermidiate</b></li>
@@ -71,7 +71,7 @@ const Describtion = () => {
                     {/* </div> */}
                 </div>
                 
-                <div className="mt-4">
+                <div className="mt-5">
                 <b style={{color:"white",fontSize:"22px"}} className="p-3">My Project</b><br />
                 <div style={{color:"white"}} >
                     <ul className="ms-4 mt-2">
